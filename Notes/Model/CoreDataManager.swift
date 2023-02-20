@@ -8,7 +8,6 @@
 import Foundation
 import CoreData
 
-
 class CoreDataManager {
     static let shared = CoreDataManager(modelName: "Notes")
     
@@ -72,5 +71,4 @@ extension CoreDataManager {
         viewContext.delete(note)
         saveContextToStore()
     }
-
 }
