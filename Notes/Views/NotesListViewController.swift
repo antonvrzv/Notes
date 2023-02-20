@@ -28,8 +28,6 @@ class NotesListViewController: UIViewController {
             notesCountLabel.text = "\(allNotes.count) \(allNotes.count == 1 ? "Note" : "Notes")"
         }
     }
-    
-    private let searchController = UISearchController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
